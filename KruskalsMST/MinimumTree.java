@@ -25,7 +25,7 @@ public class MinimumTree {
 		System.out.print("Enter the number of trials: ");
 //		int trials = Integer.parseInt(args[2]);
 		int trials = keyInput.nextInt();
-		System.out.print("Enter the dimension (0, 2, 3, or 4): ");
+		System.out.print("Enter the dimension (0, 2, 3, or 4): "); //"0" dimension is 2-d with random edge weight. All others use Euclidean distance.
 //		int dimension = Integer.parseInt(args[3]);
 		int dimension = keyInput.nextInt();
 		//RNG seeded by system time
